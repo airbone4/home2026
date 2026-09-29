@@ -15,3 +15,5 @@ git 指令
 - git push
 
 拉
+
+- git pull
