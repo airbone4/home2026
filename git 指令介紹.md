@@ -37,4 +37,5 @@ git 指令
 > fatal: unable to auto-detect email address (got 'user@DESKTOP-LH2N1MN.(none)')
 
 git config user.email "linchao@nkust.edu.tw"
+
 git config user.name "linchao"
