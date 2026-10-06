@@ -54,4 +54,9 @@ git config user.name "linchao"
 打開雲端機的第一個動作是同步檔案
 1. 到終端機打入指令:
    git pull
+
+## 觀念
+以github repo 為中心,雲端機和本地機都是下指令
+- git pull   
+
    
