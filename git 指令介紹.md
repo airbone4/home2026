@@ -49,6 +49,15 @@ git config user.email "linchao@nkust.edu.tw"
 
 git config user.name "linchao"
 
+
+### clone指令以後
+會在demo 子目錄中,產生home2026
+你可以
+- 操作1
+  1. cd home2026
+  1. code .
+- 操作2
+  1. code home2026
 ## 操作2
 
 打開雲端機的第一個動作是同步檔案
