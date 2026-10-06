@@ -18,3 +18,23 @@ git 指令
 拉
 
 - git pull
+
+
+
+> 問題: 當我打 git commit -m "demo from 教室上的機器" 顯示如下的訊息
+> Author identity unknown
+>
+>*** Please tell me who you are.
+>
+>Run
+>
+>  git config --global user.email "you@example.com"
+>  git config --global user.name "Your Name"
+>
+> to set your account's default identity.
+> Omit --global to set the identity only in this repository.
+>
+> fatal: unable to auto-detect email address (got 'user@DESKTOP-LH2N1MN.(none)')
+
+git config user.email "linchao@nkust.edu.tw"
+git config user.name "linchao"
