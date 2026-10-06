@@ -21,6 +21,15 @@ git 指令
 
 
 
+操作1: 複製到本地端電腦修改
+
+1. git clone https://github.com/airbone4/home2026.git
+  進到工作目錄,然後打開vscode 新增,刪除,修改
+1. git add .
+1. git commit -m "update"
+1. git push
+
+
 > 問題: 當我打 git commit -m "demo from 教室上的機器" 顯示如下的訊息
 > Author identity unknown
 >
