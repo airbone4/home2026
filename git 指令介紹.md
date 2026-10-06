@@ -19,9 +19,9 @@ git 指令
 
 - git pull
 
+#今日操作(2026/20/6)
 
-
-操作1: 複製到本地端電腦修改
+## 操作1: 複製到本地端電腦修改
 
 1. git clone https://github.com/airbone4/home2026.git
   進到工作目錄,然後打開vscode 新增,刪除,修改
@@ -48,3 +48,10 @@ git 指令
 git config user.email "linchao@nkust.edu.tw"
 
 git config user.name "linchao"
+
+## 操作2
+
+打開雲端機的第一個動作是同步檔案
+1. 到終端機打入指令:
+   git pull
+   
