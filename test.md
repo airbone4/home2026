@@ -34,7 +34,7 @@ sequenceDiagram
     end
     工作目錄->>索引:git add .
     索引->>本地REPO:git commit -m "訊息"
-    note over 索引,本地REPO: 可能需要處理 git 
+    note over 索引,本地REPO: 可能需要處理使用者訊息。<br/>例如: git config user.email "xx.com",git config user.name "xx"
     本地REPO->>遠端REPO: git push
  
 ```
