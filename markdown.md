@@ -17,6 +17,14 @@ markdown 測試:
 1. 第2點
 2. 2222
 
+```javascript
+x=3
+x=x+1
+if (x>2) {
+  console.log('hello')
+}
+```
+
 
 
 |  姓名   | 學號  |
