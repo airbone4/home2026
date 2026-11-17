@@ -102,9 +102,18 @@ sequenceDiagram
  
 ```
 
-# stash
-
+## 版本控制
+### 利用stash
+如果只在工作區有改動, 先打入 
+```
+git add .
 git stash push
-git stash pop
-git stash drop
+git stash drop  //真的不要
+git stash pop  //還要
+```
+### 利用checkout
+git add .
+git commit -m "fail version"  //進倉庫
+
+
 
