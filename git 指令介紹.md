@@ -112,8 +112,17 @@ git stash drop  //真的不要
 git stash pop  //還要
 ```
 ### 利用checkout
+```
 git add .
 git commit -m "fail version"  //進倉庫
+//現在想回舊版本
+//先打git log 找到舊版本的 hash code(例如 d3a391a12),然後
+git checkout d3a391a12  //現在回到舊版本
+如果要再回新版本
+git checkout main
+```
+
+
 
 
 
