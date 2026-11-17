@@ -101,3 +101,10 @@ sequenceDiagram
     本地REPO->>遠端REPO: git push
  
 ```
+
+# stash
+
+git stash push
+git stash pop
+git stash drop
+

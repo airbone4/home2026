@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template_string, request, redirect, url_for, abort
 import markdown
-
+# this is another version 2, but fail
 app = Flask(__name__)
 # 設定存放 MD 檔案的資料夾
 UPLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'blogs')
